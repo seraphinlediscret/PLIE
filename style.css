@@ -148,6 +148,13 @@ h5{
 .card{
     margin-top: 3vh;
 }
+/***********image**************/
+.logo{
+    width: 90%;
+}
+.imag{
+    width: 60%;
+}
 /***************FOOTER*******/
 footer {
     display: flex;

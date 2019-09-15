@@ -2,11 +2,22 @@
     background-color: grey;
 }
 /***********HEADER*******************/
-.logp {
-    width: 22vw;
-    height: 20vh;
+.bandereau{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
+.france{
+    width: 107px;
+}
+.plie{
+    width: 91px;
+    height: 66px;
+}
+.europe{
+    width: 119px;
+    height: 73px;
+}
 h1 {
     text-align: center;
     color: black;
@@ -88,7 +99,7 @@ padding-right: 5vw;
 }
 .accueil {
     color: white;
-margin-left: -10px;
+margin-left: -7px;
 text-align: center;
 background-color: rgb(52, 52, 231);
 }
@@ -96,7 +107,7 @@ background-color: rgb(52, 52, 231);
 .aci {
     color: white;
     background-color: green;
-margin-left: -10px;
+margin-left: -7px;
 text-align: center;
 
 
@@ -104,7 +115,7 @@ text-align: center;
 
 .ai {
     color: white;
-margin-left: -10px;
+margin-left: -7px;
 text-align: center;
 background-color:rgb(139,0,0);
 
@@ -112,7 +123,7 @@ background-color:rgb(139,0,0);
 
 .ei {
     color: white;
-margin-left: -10px;
+margin-left: -7px;
 text-align: center;
 background-color: grey;
 
@@ -120,7 +131,7 @@ background-color: grey;
 
 .etti {
     color: white;
-margin-left: -10px;
+margin-left: -7px;
 text-align: center;
 background-color: rgb(179, 137, 82);
 }
@@ -135,7 +146,7 @@ article{
     margin-left: 29vw;
 }
 main{
-    background-color: rgb(218, 218, 218);
+    background-color:white;
     margin-top: -2vh;
 }
 h5{
@@ -148,6 +159,7 @@ h5{
 .card{
     margin-top: 3vh;
 }
+
 /***********image**************/
 .logo{
     width: 90%;
@@ -165,8 +177,13 @@ footer {
 }
 
 .bas {
-    width: 16%;
+    width: 15%;
 }
+.car{
+    width: 22%
+}
+
+
 /***************responsive menu*********************/
 @media screen and (min-width: 768px){
     .menu{
@@ -176,6 +193,11 @@ footer {
     .butn{
         width: 145px;
     }
+    .europe{
+        width: 216px;
+        height: 80px;
+    }
+
 }
 @media screen and (min-width: 1000px){
 
@@ -187,13 +209,27 @@ footer {
         height: 49px;
         padding-top: 10px;
     }
-
+.france{
+    width: 200px;
+}
+.plie{
+    width: 200px;
+    height: 123px;
+}
+.europe{
+    width: 400px;
+    height: 129px;
+}
+.bandereau{
+    position: relative;
+    left: 79px;
+}
 }
 
 @media screen and (min-width: 1200px){
     .menu { 
         position: absolute;
-        top: 10.3vh;
+        top: -6.7vh;
         left: 0vw;
          display: flex;
          flex-direction: row;
@@ -206,5 +242,21 @@ footer {
      .butn{
          padding-top: 1px;
          width: 280px;
+    }
+    .fixe{
+        
+        top:42px;
+        
+    }
+    .france{
+        width: 200px;
+    }
+    .plie{
+        width: 200px;
+        height: 123px;
+    }
+    .europe{
+        width: 400px;
+        height: 129px;
     }
 }
